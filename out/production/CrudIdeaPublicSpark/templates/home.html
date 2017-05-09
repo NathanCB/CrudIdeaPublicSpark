@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD-JAVA-SPARK-Mustache-Nathan-Butler-Dev-Home</title>
+</head>
+<body>
+
+<form action="/logout" method="post"/>
+<button type="submit">Logout</button>
+</form>
+
+<h3>Hello, {{name}}!</h3>
+
+
+<form action="/create-idea" method="post">
+    <input type="text" placeholder="What's your idea?" name="ideaText" value="{{id}}">
+    <button type="submit">Post</button>
+</form>
+
+
+
+    {{#ideas}}
+    <ul>
+        <li>
+        <span>{{text}}</span>
+        <form action="/edit-idea" method="post">
+            <input type="text" placeholder="Edit idea" name="editText"/>
+            <input type="hidden" placeholder="Edit Idea" name="id" value="{{id}}"/>
+            <button type="submit">Edit</button>
+        </form>
+
+        <form action="/delete-idea" method="post">
+            <input type="hidden" placeholder="Delete" name="id" value="{{id}}"/>
+            <button type="submit">Delete</button>
+        </form>
+        </li>
+    </ul>
+    {{/ideas}}
+
+
+</body>
+</html>
