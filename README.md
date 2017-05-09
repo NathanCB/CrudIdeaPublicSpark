@@ -1,6 +1,6 @@
-##CrudIdeaPublicSpark
+## CrudIdeaPublicSpark
 Yet another CRUD web app in JAVA using SPARK and Mustache templating 
-####Features
+#### Features
 - Login by name
 - Simple Java core data structures to track user login and their associated texts
 - SPARK lambda framework for serving RESTful API
@@ -13,7 +13,7 @@ The public page is the index and only displays texts. It does not reveal the tex
 
 In order for users to have control over their texts I had to create a login, a minor inconvenience. I plan to add features that interrupt or mutate the users posted texts on the public page with various web api data sources and algorithms that process the users data and return new data. By leveraging more powerful data processing with existing apis I am able to employ complex instrumentation without having to be a rocket scientist.
 
-###Why?
+### Why? 
 
 you probably haven't asked....
 
