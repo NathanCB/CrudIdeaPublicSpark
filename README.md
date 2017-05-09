@@ -17,4 +17,6 @@ In order for users to have control over their texts I had to create a login, a m
 
 you probably haven't asked....
 
-Ultimately I am exploring an old interest with new technologies. By creating a simple crud app I am building a foundation to sketch out ideas similar to the way a composer may use technology to generate new musical ideas. I look forward to exploring technologies that I don't understand but want to use such as functional programming, lightweight web frameworks such as SPARK, and temporary or mutable data structures. This isn't simply a technical exercise but a lifelong fascination with how meaning as a single comprehensive entity is generated not from a single individual but as part of a greater whole or community of individuals. I think this is what Laurie Anderson meant with the line "...these electronic arms."
+Ultimately I am exploring an old interest with new technologies. By creating a simple crud app I am building a foundation to sketch out ideas similar to the way a composer may use technology to generate new musical ideas. I look forward to exploring technologies that I don't understand but want to use such as functional programming, lightweight web frameworks such as SPARK, and temporary or mutable data structures. 
+
+This isn't simply a technical exercise but a lifelong fascination with how meaning as a single comprehensive entity is generated not from a single individual but as part of a greater whole or community of individuals. _Perhaps this is what Laurie Anderson meant with the line "...these electronic arms."_
