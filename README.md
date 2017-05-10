@@ -6,7 +6,8 @@ Yet another CRUD web app in JAVA using SPARK and Mustache templating
 - SPARK lambda framework for serving RESTful API
 - Mustache templating framework that writes user posts to a public page
 - Formatted hash that utilizes Mustache's * *sections* * 
-
+output looks something like this
+```{PUBLIC_VIEW_NAME_AND_TEXTS_HASH={Papa Smurf=[Have you seen my glasses?, Ohh!], Dopey SMurf=[What are glasses?, Yikes!]}}```
 After logging in a user post an idea to their current view. While creating texts the user has the option to edit and delete any of their texts. The texts that are created are displayed in a public view.
 
 The public page is the index and only displays texts. It does not reveal the texts's author. In this way I am hoping to create a community generated textual view which both removes a texts origin from the view and inserts the texts into a larger context by which it assumes a different, community oriented providence. __In others words all logged in users are writing a single poem or text__.
