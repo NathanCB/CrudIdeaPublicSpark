@@ -7,7 +7,7 @@
 <body>
 
 <form action="/login" method="post">
-    <input type="text" placeholder="Enter name." name="loginName" />
+    <input type="text" placeholder="Enter name." name="loginName"/>
     <button type="submit">Login</button>
 </form>
 
@@ -15,14 +15,10 @@
 
 
 <div>
-
-
+    {{#PUBLIC_VIEW_NAME_AND_TEXTS_HASH}}
+    {{.}}
+    {{/PUBLIC_VIEW_NAME_AND_TEXTS_HASH}}
 </div>
-
-
-
-
-
 
 
 </body>
